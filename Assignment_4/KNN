@@ -1,0 +1,13 @@
+Disadvantages of KNN
+
+1. Does not work well with large dataset:
+In large datasets, the cost of calculating the distance between the new point and each existing points is huge which degrades the performance of the algorithm.
+
+2. Does not work well with high dimensions:
+The KNN algorithm doesn't work well with high dimensional data because with large number of dimensions, it becomes difficult for the algorithm to calculate the distance in each dimension.
+
+3. Need feature scaling:
+We need to do feature scaling (standardization and normalization) before applying KNN algorithm to any dataset. If we don't do so, KNN may generate wrong predictions.
+
+4. Sensitive to noisy data, missing values and outliers:
+KNN is sensitive to noise in the dataset. We need to manually impute missing values and remove outliers.
